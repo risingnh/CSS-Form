@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rethink Sans', sans-serif;
+}
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+table{
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    background: #293846;
+}
+th{
+    background: #1E2933;
+    color: #fff;
+    border: 0;
+    border: 1px solid #1E2933;
+    text-align: left;
+    padding: 7px;
+}
+tr{
+    border: 1px solid #1E2933;
+    color: #fff;
+    padding: 7px;
+}
+td{
+    border: 1px solid #1E2933;
+    color: #fff;
+    padding: 7px;
+}
+tr:nth-child(even){
+    background: #293846;
+}
+tr:nth-child(odd){
+    background: #1E2933;
+}
+.table_btn{
+    background-color: #01a3a4;
+    color: #fff;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.last_td{
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+/* From table */
+.form_layout h2{
+    padding-top: 10px;
+    color: #223838;
+    font-weight: 600;
+}
+.form_layout{
+    background: linear-gradient(90deg, rgba(0,203,232,1) 0%, rgba(122,112,240,1) 59%, rgba(168,0,242,1) 100%);
+    width: 70%;
+    height: 550px;
+    margin: auto;
+}
+.main_form{
+    width: 62%;
+    background-color: #fff;
+    margin: 10% 17%;
+    height: 67%;
+    display: inline-block;
+}
+.name_box input{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid #1f1f20;
+}
+.name_box{
+    display: flex;
+    gap: 50px;
+    margin-left: 70px;
+    margin-bottom: 22px;
+}
+.textarea{
+    margin-left: 70px;
+    display: inline-block;
+}
+textarea{
+    padding: 10px 5px;
+    border: none;
+    border-bottom: 1px solid #1f1f20;
+}
+.submit_buttn{
+    margin: 30px 0 0 70px;
+}
+input[type=button] {
+    padding: 10px 60px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: linear-gradient(90deg, rgba(0,203,232,1) 0%, rgba(122,112,240,1) 59%, rgba(168,0,242,1) 100%);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

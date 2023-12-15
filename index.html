@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Table & Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Table Part -->
+    <h2>CSS Table</h2>
+    <div class="table_bg">
+        <table>
+            <tr>
+                <th>Provider Name</th>
+                <th>E-mail</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Nafiz Hossain</td>
+                <td>rising@gmail.com</td>
+                <td><input type="button" class="table_btn" value="Select"></td>
+            </tr>
+            <tr>
+                <td>Fhs Sifat</td>
+                <td>fhsifat@gmail.com</td>
+                <td><input type="button" class="table_btn" value="Select"></td>
+            </tr>
+            <tr>
+                <td>Tahmid Alvi</td>
+                <td>tahmid@gmail.com</td>
+                <td><input type="button" class="table_btn" value="Select"></td>
+            </tr>
+            <tr>
+                <td>Jahid Hasan</td>
+                <td>jahid@gmail.com</td>
+                <td><input type="button" value="Select" class="table_btn"></td>
+            </tr>
+            <tr>
+                <td colspan="3" class="last_td">Year: 2023</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Form Part -->
+    <br>
+    <br>
+    <br>
+    <div class="form_layout">
+        <div class="main_form">
+            <h2>Contact Us Form</h2>
+            <form action="#">
+                <div class="name_box">
+                    <input type="text" name="fName" id="fName" placeholder="First Name">
+                    <input type="text" name="fName" id="fName" placeholder="Last Name">
+                </div>
+                <div class="name_box">
+                    <input type="email" name="email" id="email" placeholder="E-mail Address">
+                    <input type="text" name="web" id="web" placeholder="Website Name">
+                </div>
+                <div class="textarea">
+                    <textarea name="msg" id="msg" cols="39" rows="3" placeholder="Write Your Message"></textarea>
+                </div>
+                <div class="submit_buttn">
+                    <input type="button" value="Submit">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
